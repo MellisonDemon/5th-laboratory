@@ -44,6 +44,7 @@ int main()
 				{
 					cout << "ФИО: ";
 					cin.getline(StudentsList[i].name, 50, '\n');
+					cin.getline(StudentsList[i].name, 50, '\n');
 					cout << "Пол: ";
 					cin >> StudentsList[i].sex;
 					cout << "Группа: ";
